@@ -3259,7 +3259,7 @@ div#mCSB_1_container{
 }
 
 .testimonial-block-one .inner-box .author-box{
-  padding: 9px 0px 7px 90px;
+  padding: 9px 0px 7px 0px;
 }
 
 .testimonial-block-one .inner-box .author-box .author-thumb img{
@@ -6699,6 +6699,7 @@ div#mCSB_1_container{
   color: #141417;
   margin-bottom: 32px;
   font-weight: 500;
+  text-align: justify;
 }
 
 .about-style-four .inner-box .right-content p{
@@ -6709,6 +6710,7 @@ div#mCSB_1_container{
   position: relative;
   display: block;
   overflow: hidden;
+  margin-bottom: 50px;
 }
 
 .about-style-four .image-box .image:before{
@@ -6776,7 +6778,7 @@ div#mCSB_1_container{
 }
 
 .service-block-two .inner-box .lower-content{
-  padding: 0px 40px 37px 40px;
+  padding: 20px 40px 37px 40px;
 }
 
 .service-block-two .inner-box .lower-content .icon-box{
@@ -12335,7 +12337,7 @@ div#mCSB_1_container{
 
 .contact-style-three{
   position: relative;
-  padding: 115px 0px 90px 0px;
+  padding: 15px 0px 90px 0px;
 }
 
 .contact-style-three .contact-info{
@@ -12362,7 +12364,6 @@ div#mCSB_1_container{
   display: inline-block;
   font-size: 16px;
   line-height: 28px;
-  margin-bottom: 14px;
 }
 
 .contact-style-three .contact-info .info-list li:last-child{
@@ -12371,7 +12372,7 @@ div#mCSB_1_container{
 
 .contact-style-three .contact-info .info-list li a{
   display: inline-block;
-  color: #787878;
+  color: #000;
 }
 
 .contact-style-three .contact-info .info-list li:last-child a{
