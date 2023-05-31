@@ -35,9 +35,15 @@
 }
 
 
-@media only screen and (max-width: 1299px){
 
+@media only screen and (max-width: 399px){
 
+  .main-header .logo-box .logo{
+    max-width: 146px;
+  }
+  .main-header .logo-box .logo-abb{
+    max-width: 71px;
+  }
 }
 
 
@@ -53,7 +59,7 @@
   .menu-area .mobile-nav-toggler {
     display: block;
     padding: 10px;
-    margin-top: 37px;
+    margin-top: 25px;
   }
 
   .megamenu ul li:first-child{
@@ -1387,5 +1393,31 @@
   .main-header .outer-box{
     padding: 0px 15px;
   }
+
+}
+
+@media only screen and (max-width: 399px){
+
+  .feacture-aling{
+    display: flex;
+    height: 262px;
+  }
+  .img-proj{
+    width: 77%;
+  }
+  .feature-block-one .inner-box .content-box {
+    float: right;
+    background: #26282e;
+    padding: 10px 10px 10px 20px;
+    text-align: left;
+    min-height: 351px;
+    clip-path: polygon(10% 0, 400% 0%, 10% 132%, 0 75%);
+    transition: all 500ms ease;
+}
+.feature-block-one .inner-box .content-box h3 a {
+  display: inline-block;
+  color: #fff;
+  font-size: 18px;
+}
 
 }
